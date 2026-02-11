@@ -9,7 +9,7 @@ app = FastAPI()
 
 # redis_client = redis.StrictRedis()
 
-API_KEY = 'f979bdf85da349be90495236241809'
+API_KEY = ''
 
 def get_weather_service():
     weather_service = WeatherAPIService(api_key=API_KEY)
