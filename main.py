@@ -5,7 +5,7 @@ import requests
 
 app = FastAPI()
 
-API_KEY = 'f979bdf85da349be90495236241809'
+API_KEY = ''
 
 def get_weather(api_key, latitude: float, longitude: float) -> dict:
     url = f"http://api.weatherapi.com/v1/current.json?key={api_key}&q={latitude},{longitude}&aqi=no"
